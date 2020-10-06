@@ -1,5 +1,4 @@
-
-package com.infosys.qepackage;
+package com.infosys.javacorepractice;
 
 /**
  * 

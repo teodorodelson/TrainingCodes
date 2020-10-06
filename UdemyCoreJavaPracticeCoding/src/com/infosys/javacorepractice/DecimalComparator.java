@@ -1,4 +1,4 @@
-package com.infosys.qepackage;
+package com.infosys.javacorepractice;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

@@ -1,4 +1,4 @@
-package com.infosys.qepackage;
+package com.infosys.javacorepractice;
 
 /**
  * @author Teodoro Delson Jr.
