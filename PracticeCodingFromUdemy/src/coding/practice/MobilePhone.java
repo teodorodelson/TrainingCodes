@@ -49,10 +49,24 @@ public class MobilePhone {
 				printChoices();
 				break;
 			case 3:
+				System.out.println("Enter name of contact to be updated: ");
+				String first= kbd.nextLine();
+				System.out.println("Enter new name of contact: ");
+				String second= kbd.nextLine();
+				updateContacts(first, second);
+				printChoices();
 				break;
 			case 4:
+				System.out.println("Enter name of contact to be deleted: ");
+				String delete= kbd.nextLine();
+				Contacts.deleteContact(delete);
+				printChoices();
 				break;
 			case 5:
+				System.out.println("Enter name: ");
+				String name = kbd.nextLine();
+				search(name);
+				printChoices();
 				break;
 			case 9:
 				System.out.println("Program Exit");
@@ -66,13 +80,24 @@ public class MobilePhone {
 		}
 	}
 	
-	public static void printChoices() {
+	private static void printChoices() {
 		System.out.println("Enter 0 for options menu, 1 for list of contacts, 2 to add new contacts, 3 update existing contact "
 				+ "4 remove contact, 5 search contact, 9 to quit");
 	}
 	
-	public static void addContact(String bbb) {
+	private static void addContact(String bbb) {
 		Contacts.addContact(bbb);
 	}
-
+	
+	private static void updateContacts(String a, String b) {
+		Contacts.updateContact(a, b);
+	}
+	
+	private static void search(String name) {
+		if(Contacts.validator(name)) {
+			System.out.println("Contact "+ name + " found.");
+		}else {
+			System.out.println("Contact does not exists");
+		}
+	}
 }
