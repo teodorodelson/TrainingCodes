@@ -12,7 +12,7 @@ import java.util.regex.*;
 public class Staircase {
 
 
-	
+	//https://www.hackerrank.com/challenges/staircase/problem
 
 	    // Complete the staircase function below.
 	    static void staircase(int n) {
