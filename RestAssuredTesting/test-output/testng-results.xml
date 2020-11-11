@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5622" started-at="2020-11-11T17:07:48Z" finished-at="2020-11-11T17:07:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5622" started-at="2020-11-11T17:07:48Z" finished-at="2020-11-11T17:07:54Z">
+      <class name="RestAssuredTesting.RestAssuredTesting.get_RequestTest">
+        <test-method status="PASS" signature="getUserDetails()[pri:0, instance:RestAssuredTesting.RestAssuredTesting.get_RequestTest@3246fb96]" name="getUserDetails" duration-ms="2276" started-at="2020-11-11T17:07:48Z" finished-at="2020-11-11T17:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetails -->
+      </class> <!-- RestAssuredTesting.RestAssuredTesting.get_RequestTest -->
+      <class name="RestAssuredTesting.RestAssuredTesting.post_RequestTest">
+        <test-method status="PASS" signature="postUserDetails()[pri:0, instance:RestAssuredTesting.RestAssuredTesting.post_RequestTest@2e222612]" name="postUserDetails" duration-ms="1532" started-at="2020-11-11T17:07:50Z" finished-at="2020-11-11T17:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUserDetails -->
+      </class> <!-- RestAssuredTesting.RestAssuredTesting.post_RequestTest -->
+      <class name="RestAssuredTesting.RestAssuredTesting.get_Requestv2">
+        <test-method status="PASS" signature="getUserDetails()[pri:0, instance:RestAssuredTesting.RestAssuredTesting.get_Requestv2@61386958]" name="getUserDetails" duration-ms="1800" started-at="2020-11-11T17:07:52Z" finished-at="2020-11-11T17:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetails -->
+      </class> <!-- RestAssuredTesting.RestAssuredTesting.get_Requestv2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
