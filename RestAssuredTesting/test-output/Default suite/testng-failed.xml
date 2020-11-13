@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredTesting.RestAssuredTesting.get_Requestv2">
+      <class name="RestAssuredTesting.RestAssuredTesting.post3_LoginRequest">
         <methods>
-          <include name="getUserDetails"/>
+          <include name="postLogin"/>
         </methods>
-      </class> <!-- RestAssuredTesting.RestAssuredTesting.get_Requestv2 -->
+      </class> <!-- RestAssuredTesting.RestAssuredTesting.post3_LoginRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

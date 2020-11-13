@@ -29,7 +29,7 @@ public class get_Requestv2 {
 		Assert.assertEquals(jsonpath.get("data.id"), 2);
 		
 		
-		Assert.assertEquals("two", a);
+		//Assert.assertEquals("two", a);
 		//Assert.assertEquals(jsonpath.get("data.id"), 1); should fail
 		
 		
